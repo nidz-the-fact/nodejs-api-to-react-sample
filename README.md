@@ -26,7 +26,7 @@ Stacks Libraries, frameworks.
 │   ├──── "dotenv": "^16.4.5" - enable: 'dotenv' - set .env or port.
 │   ├──── "express": "^4.19.2" - using: 'express' - framework with app.?.
 │   ├──── "inspirational-quotes": "^2.0.1" - deploy: respone data to data.
-│   ├──── "nodemon": "^3.1.4" - helper edit run derver.
+│   ├──── "nodemon": "^3.1.4" - helper edit run server.
 │   ├── <b><a href="https://github.com/nidz-the-fact/nodejs-api-to-react-sample/blob/main/backend/index.js">Developments</a></b>.
 │   ├
 │   ├── <b>Frontend</b>
