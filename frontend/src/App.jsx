@@ -9,7 +9,8 @@ function App() {
   const [author, setAuthor] = useState("");
 
   function getQuote() {
-    axios.get('http://localhost:5000/api')
+    axios.get(`${import.meta.env.VITE_BASE_URL}/api`)
+      // axios.get('http://localhost:5000/api')
       .then(respone => {
         setText(respone.data.text);
         setAuthor(respone.data.author);
